@@ -1,0 +1,71 @@
+<clientes another="ok">
+    <cliente nome="mateus">
+        <enderecos>
+            <endereco>
+                rua a
+            </endereco>
+            <endereco>
+                rua b
+            </endereco>
+            <endereco>
+                rua c
+            </endereco>
+        </enderecos>
+        <telefones>
+            <telefone numero="123">
+                <ligacoes_locais>
+                    <numero_regional>
+                        777.0
+                    </numero_regional>
+                </ligacoes_locais>
+                <ligacoes_internacionais>
+                    <numero_internacional>
+                        999.0
+                    </numero_internacional>
+                </ligacoes_internacionais>
+            </telefone>
+            <telefone numero="456">
+                <ligacoes_locais>
+                    <numero_regional>
+                        888.0
+                    </numero_regional>
+                </ligacoes_locais>
+                <ligacoes_internacionais>
+                    <numero_internacional>
+                        999.0
+                    </numero_internacional>
+                    <numero_internacional>
+                        555.0
+                    </numero_internacional>
+                </ligacoes_internacionais>
+            </telefone>
+        </telefones>
+    </cliente>
+    <cliente nome="gabrielle">
+        <enderecos>
+            <endereco>
+                rua a
+            </endereco>
+            <endereco>
+                rua b
+            </endereco>
+            <endereco>
+                rua c
+            </endereco>
+        </enderecos>
+        <telefones>
+            <telefone numero="123456">
+                <ligacoes_locais>
+                    <numero_regional>
+                        nan
+                    </numero_regional>
+                </ligacoes_locais>
+                <ligacoes_internacionais>
+                    <numero_internacional>
+                        nan
+                    </numero_internacional>
+                </ligacoes_internacionais>
+            </telefone>
+        </telefones>
+    </cliente>
+</clientes>

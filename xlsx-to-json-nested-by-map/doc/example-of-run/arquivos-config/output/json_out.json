@@ -1,0 +1,78 @@
+{
+    "clientes": [
+        {
+            "nome": "mateus",
+            "telefone": [
+                {
+                    "numero": "123",
+                    "ligacoes_locais": [
+                        {
+                            "numero_regional": "777"
+                        }
+                    ],
+                    "ligacoes_internacionais": [
+                        {
+                            "numero_internacional": "999"
+                        }
+                    ]
+                },
+                {
+                    "numero": "456",
+                    "ligacoes_locais": [
+                        {
+                            "numero_regional": "888"
+                        }
+                    ],
+                    "ligacoes_internacionais": [
+                        {
+                            "numero_internacional": "999"
+                        },
+                        {
+                            "numero_internacional": "555"
+                        }
+                    ]
+                }
+            ],
+            "enderecos": [
+                {
+                    "endereco": "rua a"
+                },
+                {
+                    "endereco": "rua b"
+                },
+                {
+                    "endereco": "rua c"
+                }
+            ]
+        },
+        {
+            "nome": "gabrielle",
+            "telefone": [
+                {
+                    "numero": "123456",
+                    "ligacoes_locais": [
+                        {
+                            "numero_regional": "nan"
+                        }
+                    ],
+                    "ligacoes_internacionais": [
+                        {
+                            "numero_internacional": "nan"
+                        }
+                    ]
+                }
+            ],
+            "enderecos": [
+                {
+                    "endereco": "rua a"
+                },
+                {
+                    "endereco": "rua b"
+                },
+                {
+                    "endereco": "rua c"
+                }
+            ]
+        }
+    ]
+}

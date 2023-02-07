@@ -1,0 +1,25 @@
+{
+        "##clientes": [
+            {
+                "@@nome": "$$nome",
+                "##telefone": [
+                    {
+                        "@@numero": "$$telefone",
+                        "##ligacoes_locais":[
+                         {
+                             "@@numero_regional": "$$numero_regional"
+                         }
+                       ],
+                     "##ligacoes_internacionais":[
+                          {
+                             "@@numero_internacional": "$$numero_internacional"
+                          }
+                     ]
+                    }
+                ],
+                "##enderecos": [
+                    {"@@endereco": "$$end"}
+                ]
+            }
+        ]
+    }

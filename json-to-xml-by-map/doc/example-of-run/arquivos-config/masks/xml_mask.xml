@@ -1,0 +1,36 @@
+
+<clientes another="ok">
+
+    <cliente jsonReference="clientes"
+             nome="$$nome">
+
+        <enderecos jsonReference="enderecos">
+            <endereco jsonReference="endereco">
+            </endereco>
+        </enderecos>
+
+        <telefones>
+
+                <telefone jsonReference="telefone"
+                          numero="$$numero">
+
+                        <ligacoes_locais jsonReference="ligacoes_locais">
+                            <numero_regional jsonReference="numero_regional">
+                            </numero_regional>
+                        </ligacoes_locais>
+
+                        <ligacoes_internacionais jsonReference="ligacoes_internacionais">
+                            <numero_internacional jsonReference="numero_internacional">
+                            </numero_internacional>
+                        </ligacoes_internacionais>
+
+                </telefone>
+
+        </telefones>
+
+
+
+    </cliente>
+
+</clientes>
+
