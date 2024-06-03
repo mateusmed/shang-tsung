@@ -1,23 +1,21 @@
 
 ---
-Atenção - Este módulo constroi funções dinamicamente
-cuidado ao utilizar jsons que possuem comandos de computador
-em suas variaveis
+Atention - this module build dynamic functions
+caution to use content to have computing commands
 ---
 
-Execute localmente para o entendimento:
+Execute locally to knowloge:
 [execute localmente](./example-of-run/example-of-run-xlsx-to-json.md)
 
 
 ---
 
-Exemplo de xlsx:
+Example of xlsx:
 
 ![img.png](img.png)
 
 
-Exemplo de mapa passado:
-
+Example of map passed:
 
 ```
 {
@@ -46,7 +44,7 @@ Exemplo de mapa passado:
     }
 ```
 
-Saída:
+Output:
 
 ```
 {
@@ -131,26 +129,26 @@ Saída:
 ```
 
 ```
-    $$ -> nome da coluna na planilha
-    @@ -> identificador de agregação
-    ## -> identificador de lista (onde acontecerá a "junção")
+    $$ -> name of colun in xlsx
+    @@ -> aggregation identify
+    ## -> list identigy (where will be happen "join")
 ```
 
 
 ```
-REGRAS:
-    - AS LISTAS PRECISAM TER APENAS UM OBJETO INTERNO 
-    - NÃO SÃO POSSÍVEIS LISTAS VAZIAS
-    - SEMPRE QUE IDENTIFICAR UMA LISTA, VC PRECISA 
-      ESPECIFICAR UM IDENTIFICADOR AGREGADOR (@@) NO OBJETO INTERNO DENTRO DA LISTA
-    - CASO TENHA UMA LISTA AGREGADORA, VOCÊ PRECISA COLOCAR ELA NO PRIMEIRO NÍVEL
+RULES:
+    - LIST NEED TO BE ONLY A ONE OBJECT INTER (LIKE PATTERN OF AGREGATION)
+    - IT'S NOT PERMITTED EMPTY LISTS
+    - ALWAYS DO YOU HAVE A LIST, IS NECESSARY TO SPECIFY AGGREGATION TAG LIKE (@@)  
+      IN OBJECT INSIDE OF LIST
+    - IF YOU HAVE AGGREGATION LIST YOU NEED TO PUT THIS IN FIRST LAYER
       
 ```
  
-- você não pode deixar seu objeto principal em um nível inferior, por exemplo:
+- you can't put the main object in the "second layer", for example:
 
 
-INVALIDO:
+INVALID:
 ```
 {
         "ProfessorXavier:{
@@ -166,7 +164,7 @@ INVALIDO:
 }
 ```
 
-VALIDO:
+VALID:
 ```
 {
         "nome: "ProfessorXavier,
@@ -181,6 +179,5 @@ VALIDO:
 }
 ```
 
-O Software vai sempre buscar AS LISTAS no primeiro nível do objeto mapa\
-se sua lista estiver em uma camada inferior, suba ela de nível de uma forma inteligente
-respeitando as regras
+The software will be search the lists in the "first layer" of map passed\
+if your list in the second layer please put this in the first layer by the rules.

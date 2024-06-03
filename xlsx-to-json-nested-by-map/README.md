@@ -1,5 +1,4 @@
 LINKS:
 
-[ENGLISH](EN.md)
-
+[ENGLISH](doc/EN.md)
 [PORTUGUÊS](doc/PT.md)

@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="340" height="600" src="https://github.com/mateusmed/shang-tsung/blob/master/doc/shang-tsung.jpg">
+  <img width="340" height="600" src="./doc/shang-tsung.jpg">
 </p>
 
 
