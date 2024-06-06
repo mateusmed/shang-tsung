@@ -1,6 +1,6 @@
 
 Run locally for knowlloge:
-[run_locally](doc/example-of-run/en-example-of-run-json-to-xml.md)
+[run_locally](./example-of-run/en-example-of-run-json-to-xml.md)
 
 
 the intention of project is convert json nested in xml
