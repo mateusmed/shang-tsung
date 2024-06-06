@@ -6,7 +6,7 @@ em suas variaveis
 ---
 
 Execute localmente para o entendimento:
-[execute localmente](./example-of-run/example-of-run-xlsx-to-json.md)
+[execute localmente](./example-of-run/pt-example-of-run-xlsx-to-json.md)
 
 
 ---

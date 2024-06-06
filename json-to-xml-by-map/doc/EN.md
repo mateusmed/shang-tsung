@@ -1,16 +1,19 @@
-Execute localmente para o entendimento:
-[execute localmente](doc/example-of-run/example-of-run-json-to-xml.md)
+
+Run locally for knowlloge:
+[run_locally](doc/example-of-run/en-example-of-run-json-to-xml.md)
 
 
+the intention of project is convert json nested in xml
+todo this is necessary specify a map
 
-O objetivo do projeto é converter um json nested em um xml
+this is a input structure you need to convert,
+the module: 
 
+- xlsx-to-json-nested-by-map
 
-para isso é necessário especificar um map
+build exactly structure necessary
 
-
-
-JSON INPUT
+example of JSON INPUT:
   
 ```
 {
@@ -94,7 +97,7 @@ JSON INPUT
 }
 ```
 
-MAPA
+this is a MAP:
 
 ```
 <clientes another="ok">
@@ -131,8 +134,7 @@ MAPA
 ```
 
 
-
-RESULTADO
+this is OUTPUT:
 
 ```
 <clientes another="ok">
@@ -211,26 +213,30 @@ RESULTADO
 
 ---
 
-No mapa é necessário especificar apenas
+In the map is necessary only pass jsonRefference, like:
 
 ```
 jsonReference="<jsonAttribute>"
 ```
 
-A tag $$ significa que esse atríbuto é um identificador daquela tag
-por tanto ele deverá ser um atributo da tag
+The tag $$ meaning of this attribute is identify, this is used to make aggregation
+
+```
+<telefone jsonReference="telefone"
+          numero="$$numero">
+```
+
 ```
 numero="$$<jsonAttribute>"
 ```
 
 ---
 
+If you remove all attributes identify you will be get a join of all values
+for example, will you want to catch only phoneNumbers(telefone), you need to pass this map:
 
-Se vc remover os atributos identificadores vc tera uma junção de todos os valores
-vamos supor, vc quer pegar apenas todos os telefones
-então vc passa esse mapa:
 
-MAPA
+MAP:
 
 ```
 
@@ -263,7 +269,7 @@ MAPA
 ```
 
 
-SAÍDA
+OUTPUT:
 
 ```
 <clientes another="ok">

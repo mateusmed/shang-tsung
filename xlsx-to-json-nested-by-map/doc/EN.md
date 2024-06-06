@@ -5,7 +5,7 @@ caution to use content to have computing commands
 ---
 
 Execute locally to knowloge:
-[execute localmente](./example-of-run/example-of-run-xlsx-to-json.md)
+[run_locally](./example-of-run/en-example-of-run-xlsx-to-json.md)
 
 
 ---

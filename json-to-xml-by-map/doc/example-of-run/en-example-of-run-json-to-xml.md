@@ -11,7 +11,7 @@ node \src\main.js <xml_mask> <json_input> <xml_out>
 
 esse bat procura facilitar para você executar localmente pra testar o funcionamento:
 ```
-cd /doc/example-of-run-json-to-xml/run.bat
+cd /doc/example-of-run/run.bat
 ```
 
 
